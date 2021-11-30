@@ -19,6 +19,11 @@ Number of attributes: 22
    - Navigate to the local folder
    - Open the file `Apriori - 2021 data .ipynb`
    - Run all the cells of Notebook
+3. For association analysis: (Pre and Post Covid data)
+   - Open Jupyter Notebook
+   - Navigate to the local folder
+   - Open the file `Pre-covid.ipynb` / `Post-covid.ipynb`
+   - Run all the cells of Notebook
 
 # Proposed methodology
 
