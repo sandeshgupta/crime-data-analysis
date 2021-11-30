@@ -22,7 +22,7 @@ Number of attributes: 22
 3. For association analysis: (Pre and Post Covid data)
    - Open Jupyter Notebook
    - Navigate to the local folder
-   - Open the file `Pre-covid.ipynb.ipynb` / `Post-covid.ipynb.ipynb`
+   - Open the file `Pre-covid.ipynb` / `Post-covid.ipynb`
    - Run all the cells of Notebook
 
 # Proposed methodology
