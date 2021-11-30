@@ -1,86 +1,86 @@
 antecedents,consequents,support,confidence,lift
 frozenset({'Description-TO PROPERTY'}),frozenset({'Primary Type-CRIMINAL DAMAGE'}),0.06,1.0,8.1
-"frozenset({'Arrest-False', 'Description-TO PROPERTY'})",frozenset({'Primary Type-CRIMINAL DAMAGE'}),0.06,1.0,8.1
+"frozenset({'Description-TO PROPERTY', 'Arrest-False'})",frozenset({'Primary Type-CRIMINAL DAMAGE'}),0.06,1.0,8.1
 frozenset({'Description-$500 AND UNDER'}),frozenset({'Primary Type-THEFT'}),0.08,1.0,5.28
 frozenset({'Description-OVER $500'}),frozenset({'Primary Type-THEFT'}),0.06,1.0,5.28
-"frozenset({'Arrest-False', 'Description-$500 AND UNDER'})",frozenset({'Primary Type-THEFT'}),0.07,1.0,5.28
-"frozenset({'Arrest-False', 'Description-OVER $500'})",frozenset({'Primary Type-THEFT'}),0.06,1.0,5.28
+"frozenset({'Description-$500 AND UNDER', 'Arrest-False'})",frozenset({'Primary Type-THEFT'}),0.07,1.0,5.28
+"frozenset({'Description-OVER $500', 'Arrest-False'})",frozenset({'Primary Type-THEFT'}),0.06,1.0,5.28
 "frozenset({'Domestic-False', 'Description-$500 AND UNDER'})",frozenset({'Primary Type-THEFT'}),0.07,1.0,5.28
 "frozenset({'Description-OVER $500', 'Domestic-False'})",frozenset({'Primary Type-THEFT'}),0.05,1.0,5.28
-"frozenset({'Arrest-False', 'Domestic-False', 'Description-$500 AND UNDER'})",frozenset({'Primary Type-THEFT'}),0.07,1.0,5.28
-"frozenset({'Arrest-False', 'Domestic-False', 'Description-OVER $500'})",frozenset({'Primary Type-THEFT'}),0.05,1.0,5.28
+"frozenset({'Domestic-False', 'Description-$500 AND UNDER', 'Arrest-False'})",frozenset({'Primary Type-THEFT'}),0.07,1.0,5.28
+"frozenset({'Description-OVER $500', 'Domestic-False', 'Arrest-False'})",frozenset({'Primary Type-THEFT'}),0.05,1.0,5.28
 frozenset({'Description-DOMESTIC BATTERY SIMPLE'}),frozenset({'Primary Type-BATTERY'}),0.1,1.0,4.98
-"frozenset({'Arrest-False', 'Description-DOMESTIC BATTERY SIMPLE'})",frozenset({'Primary Type-BATTERY'}),0.08,1.0,4.98
+"frozenset({'Description-DOMESTIC BATTERY SIMPLE', 'Arrest-False'})",frozenset({'Primary Type-BATTERY'}),0.08,1.0,4.98
 "frozenset({'Domestic-True', 'Description-DOMESTIC BATTERY SIMPLE'})",frozenset({'Primary Type-BATTERY'}),0.1,1.0,4.98
-"frozenset({'Arrest-False', 'Domestic-True', 'Description-DOMESTIC BATTERY SIMPLE'})",frozenset({'Primary Type-BATTERY'}),0.08,1.0,4.98
-frozenset({'Description-DOMESTIC BATTERY SIMPLE'}),"frozenset({'Primary Type-BATTERY', 'Domestic-True'})",0.1,0.99,8.62
+"frozenset({'Domestic-True', 'Description-DOMESTIC BATTERY SIMPLE', 'Arrest-False'})",frozenset({'Primary Type-BATTERY'}),0.08,1.0,4.98
+frozenset({'Description-DOMESTIC BATTERY SIMPLE'}),"frozenset({'Domestic-True', 'Primary Type-BATTERY'})",0.1,0.99,8.62
 frozenset({'Description-DOMESTIC BATTERY SIMPLE'}),frozenset({'Domestic-True'}),0.1,0.99,4.44
-"frozenset({'Primary Type-BATTERY', 'Description-DOMESTIC BATTERY SIMPLE'})",frozenset({'Domestic-True'}),0.1,0.99,4.44
-"frozenset({'Arrest-False', 'Description-DOMESTIC BATTERY SIMPLE'})","frozenset({'Primary Type-BATTERY', 'Domestic-True'})",0.08,0.99,8.61
-"frozenset({'Arrest-False', 'Description-DOMESTIC BATTERY SIMPLE'})",frozenset({'Domestic-True'}),0.08,0.99,4.43
-"frozenset({'Primary Type-BATTERY', 'Description-DOMESTIC BATTERY SIMPLE', 'Arrest-False'})",frozenset({'Domestic-True'}),0.08,0.99,4.43
+"frozenset({'Description-DOMESTIC BATTERY SIMPLE', 'Primary Type-BATTERY'})",frozenset({'Domestic-True'}),0.1,0.99,4.44
+"frozenset({'Description-DOMESTIC BATTERY SIMPLE', 'Arrest-False'})","frozenset({'Domestic-True', 'Primary Type-BATTERY'})",0.08,0.99,8.61
+"frozenset({'Description-DOMESTIC BATTERY SIMPLE', 'Arrest-False'})",frozenset({'Domestic-True'}),0.08,0.99,4.43
+"frozenset({'Description-DOMESTIC BATTERY SIMPLE', 'Primary Type-BATTERY', 'Arrest-False'})",frozenset({'Domestic-True'}),0.08,0.99,4.43
 "frozenset({'Description-OVER $500', 'Domestic-False'})","frozenset({'Primary Type-THEFT', 'Arrest-False'})",0.05,0.99,5.44
 "frozenset({'Description-OVER $500', 'Domestic-False'})",frozenset({'Arrest-False'}),0.05,0.99,1.13
-"frozenset({'Primary Type-THEFT', 'Description-OVER $500', 'Domestic-False'})",frozenset({'Arrest-False'}),0.05,0.99,1.13
+"frozenset({'Description-OVER $500', 'Domestic-False', 'Primary Type-THEFT'})",frozenset({'Arrest-False'}),0.05,0.99,1.13
 frozenset({'Description-OVER $500'}),"frozenset({'Primary Type-THEFT', 'Arrest-False'})",0.06,0.99,5.43
 frozenset({'Description-OVER $500'}),frozenset({'Arrest-False'}),0.06,0.99,1.13
-"frozenset({'Primary Type-THEFT', 'Description-OVER $500'})",frozenset({'Arrest-False'}),0.06,0.99,1.13
+"frozenset({'Description-OVER $500', 'Primary Type-THEFT'})",frozenset({'Arrest-False'}),0.06,0.99,1.13
 frozenset({'Primary Type-DECEPTIVE PRACTICE'}),frozenset({'Arrest-False'}),0.08,0.99,1.13
-"frozenset({'Domestic-False', 'Primary Type-DECEPTIVE PRACTICE'})",frozenset({'Arrest-False'}),0.08,0.99,1.13
+"frozenset({'Primary Type-DECEPTIVE PRACTICE', 'Domestic-False'})",frozenset({'Arrest-False'}),0.08,0.99,1.13
 "frozenset({'Domestic-False', 'Description-$500 AND UNDER'})","frozenset({'Primary Type-THEFT', 'Arrest-False'})",0.07,0.99,5.43
 "frozenset({'Domestic-False', 'Description-$500 AND UNDER'})",frozenset({'Arrest-False'}),0.07,0.99,1.13
-"frozenset({'Primary Type-THEFT', 'Domestic-False', 'Description-$500 AND UNDER'})",frozenset({'Arrest-False'}),0.07,0.99,1.13
+"frozenset({'Domestic-False', 'Primary Type-THEFT', 'Description-$500 AND UNDER'})",frozenset({'Arrest-False'}),0.07,0.99,1.13
 frozenset({'Description-$500 AND UNDER'}),"frozenset({'Primary Type-THEFT', 'Arrest-False'})",0.07,0.99,5.42
 frozenset({'Description-$500 AND UNDER'}),frozenset({'Arrest-False'}),0.07,0.99,1.12
 "frozenset({'Primary Type-THEFT', 'Description-$500 AND UNDER'})",frozenset({'Arrest-False'}),0.07,0.99,1.12
 frozenset({'Primary Type-DECEPTIVE PRACTICE'}),frozenset({'Domestic-False'}),0.08,0.99,1.27
-"frozenset({'Arrest-False', 'Primary Type-DECEPTIVE PRACTICE'})",frozenset({'Domestic-False'}),0.08,0.99,1.27
+"frozenset({'Primary Type-DECEPTIVE PRACTICE', 'Arrest-False'})",frozenset({'Domestic-False'}),0.08,0.99,1.27
 "frozenset({'Description-TO VEHICLE', 'Primary Type-CRIMINAL DAMAGE'})",frozenset({'Arrest-False'}),0.06,0.98,1.12
-frozenset({'Primary Type-DECEPTIVE PRACTICE'}),"frozenset({'Arrest-False', 'Domestic-False'})",0.08,0.98,1.43
+frozenset({'Primary Type-DECEPTIVE PRACTICE'}),"frozenset({'Domestic-False', 'Arrest-False'})",0.08,0.98,1.43
 frozenset({'Description-TO VEHICLE'}),frozenset({'Arrest-False'}),0.06,0.97,1.11
 "frozenset({'Domestic-False', 'Location Description-RESIDENCE'})",frozenset({'Arrest-False'}),0.1,0.97,1.11
-"frozenset({'Arrest-False', 'Description-TO VEHICLE'})",frozenset({'Primary Type-CRIMINAL DAMAGE'}),0.06,0.97,7.86
+"frozenset({'Description-TO VEHICLE', 'Arrest-False'})",frozenset({'Primary Type-CRIMINAL DAMAGE'}),0.06,0.97,7.86
 "frozenset({'Domestic-False', 'Primary Type-CRIMINAL DAMAGE'})",frozenset({'Arrest-False'}),0.1,0.97,1.1
-"frozenset({'Location Description-APARTMENT', 'Domestic-False'})",frozenset({'Arrest-False'}),0.11,0.97,1.1
+"frozenset({'Domestic-False', 'Location Description-APARTMENT'})",frozenset({'Arrest-False'}),0.11,0.97,1.1
 frozenset({'Primary Type-CRIMINAL DAMAGE'}),frozenset({'Arrest-False'}),0.12,0.96,1.1
 frozenset({'Primary Type-THEFT'}),frozenset({'Arrest-False'}),0.18,0.96,1.1
-"frozenset({'Primary Type-THEFT', 'Domestic-False'})",frozenset({'Arrest-False'}),0.17,0.96,1.09
+"frozenset({'Domestic-False', 'Primary Type-THEFT'})",frozenset({'Arrest-False'}),0.17,0.96,1.09
 frozenset({'Description-TO VEHICLE'}),frozenset({'Primary Type-CRIMINAL DAMAGE'}),0.06,0.96,7.79
-"frozenset({'Primary Type-BATTERY', 'Description-SIMPLE'})",frozenset({'Domestic-False'}),0.05,0.96,1.23
-frozenset({'Description-TO PROPERTY'}),"frozenset({'Arrest-False', 'Primary Type-CRIMINAL DAMAGE'})",0.06,0.95,8.03
+"frozenset({'Description-SIMPLE', 'Primary Type-BATTERY'})",frozenset({'Domestic-False'}),0.05,0.96,1.23
+frozenset({'Description-TO PROPERTY'}),"frozenset({'Primary Type-CRIMINAL DAMAGE', 'Arrest-False'})",0.06,0.95,8.03
 frozenset({'Description-TO PROPERTY'}),frozenset({'Arrest-False'}),0.06,0.95,1.09
 "frozenset({'Description-TO PROPERTY', 'Primary Type-CRIMINAL DAMAGE'})",frozenset({'Arrest-False'}),0.06,0.95,1.09
-frozenset({'Description-TO VEHICLE'}),"frozenset({'Arrest-False', 'Primary Type-CRIMINAL DAMAGE'})",0.06,0.94,7.93
+frozenset({'Description-TO VEHICLE'}),"frozenset({'Primary Type-CRIMINAL DAMAGE', 'Arrest-False'})",0.06,0.94,7.93
 frozenset({'Location Description-RESIDENCE'}),frozenset({'Arrest-False'}),0.15,0.94,1.07
-"frozenset({'Description-SIMPLE', 'Primary Type-ASSAULT'})",frozenset({'Arrest-False'}),0.06,0.94,1.07
+"frozenset({'Primary Type-ASSAULT', 'Description-SIMPLE'})",frozenset({'Arrest-False'}),0.06,0.94,1.07
 frozenset({'Primary Type-THEFT'}),frozenset({'Domestic-False'}),0.18,0.93,1.2
 "frozenset({'Primary Type-THEFT', 'Arrest-False'})",frozenset({'Domestic-False'}),0.17,0.93,1.2
 frozenset({'Location Description-APARTMENT'}),frozenset({'Arrest-False'}),0.2,0.93,1.05
-"frozenset({'Domestic-False', 'Primary Type-ASSAULT'})",frozenset({'Arrest-False'}),0.06,0.92,1.04
+"frozenset({'Primary Type-ASSAULT', 'Domestic-False'})",frozenset({'Arrest-False'}),0.06,0.92,1.04
 frozenset({'Description-SIMPLE'}),frozenset({'Arrest-False'}),0.11,0.91,1.04
 frozenset({'Primary Type-ASSAULT'}),frozenset({'Arrest-False'}),0.09,0.91,1.04
-"frozenset({'Domestic-False', 'Description-SIMPLE'})",frozenset({'Arrest-False'}),0.09,0.91,1.04
-"frozenset({'Arrest-False', 'Description-$500 AND UNDER'})","frozenset({'Primary Type-THEFT', 'Domestic-False'})",0.07,0.91,5.16
-"frozenset({'Arrest-False', 'Description-$500 AND UNDER'})",frozenset({'Domestic-False'}),0.07,0.91,1.17
-"frozenset({'Primary Type-THEFT', 'Arrest-False', 'Description-$500 AND UNDER'})",frozenset({'Domestic-False'}),0.07,0.91,1.17
-"frozenset({'Arrest-False', 'Description-OVER $500'})","frozenset({'Primary Type-THEFT', 'Domestic-False'})",0.05,0.91,5.16
-"frozenset({'Arrest-False', 'Description-OVER $500'})",frozenset({'Domestic-False'}),0.05,0.91,1.17
-"frozenset({'Primary Type-THEFT', 'Arrest-False', 'Description-OVER $500'})",frozenset({'Domestic-False'}),0.05,0.91,1.17
+"frozenset({'Description-SIMPLE', 'Domestic-False'})",frozenset({'Arrest-False'}),0.09,0.91,1.04
+"frozenset({'Description-$500 AND UNDER', 'Arrest-False'})","frozenset({'Domestic-False', 'Primary Type-THEFT'})",0.07,0.91,5.16
+"frozenset({'Description-$500 AND UNDER', 'Arrest-False'})",frozenset({'Domestic-False'}),0.07,0.91,1.17
+"frozenset({'Primary Type-THEFT', 'Description-$500 AND UNDER', 'Arrest-False'})",frozenset({'Domestic-False'}),0.07,0.91,1.17
+"frozenset({'Description-OVER $500', 'Arrest-False'})","frozenset({'Domestic-False', 'Primary Type-THEFT'})",0.05,0.91,5.16
+"frozenset({'Description-OVER $500', 'Arrest-False'})",frozenset({'Domestic-False'}),0.05,0.91,1.17
+"frozenset({'Description-OVER $500', 'Primary Type-THEFT', 'Arrest-False'})",frozenset({'Domestic-False'}),0.05,0.91,1.17
 frozenset({'District-4'}),frozenset({'Arrest-False'}),0.06,0.91,1.03
-frozenset({'Description-OVER $500'}),"frozenset({'Primary Type-THEFT', 'Domestic-False'})",0.05,0.91,5.15
+frozenset({'Description-OVER $500'}),"frozenset({'Domestic-False', 'Primary Type-THEFT'})",0.05,0.91,5.15
 frozenset({'Description-OVER $500'}),frozenset({'Domestic-False'}),0.05,0.91,1.17
-"frozenset({'Primary Type-THEFT', 'Description-OVER $500'})",frozenset({'Domestic-False'}),0.05,0.91,1.17
+"frozenset({'Description-OVER $500', 'Primary Type-THEFT'})",frozenset({'Domestic-False'}),0.05,0.91,1.17
 "frozenset({'Domestic-False', 'Month-8'})",frozenset({'Arrest-False'}),0.08,0.91,1.03
-frozenset({'Description-$500 AND UNDER'}),"frozenset({'Primary Type-THEFT', 'Domestic-False'})",0.07,0.91,5.15
+frozenset({'Description-$500 AND UNDER'}),"frozenset({'Domestic-False', 'Primary Type-THEFT'})",0.07,0.91,5.15
 frozenset({'Description-$500 AND UNDER'}),frozenset({'Domestic-False'}),0.07,0.91,1.17
 "frozenset({'Primary Type-THEFT', 'Description-$500 AND UNDER'})",frozenset({'Domestic-False'}),0.07,0.91,1.17
 frozenset({'District-8'}),frozenset({'Arrest-False'}),0.06,0.91,1.03
 frozenset({'Month-8'}),frozenset({'Arrest-False'}),0.1,0.91,1.03
 frozenset({'Month-9'}),frozenset({'Arrest-False'}),0.11,0.9,1.03
-"frozenset({'Domestic-False', 'Month-9'})",frozenset({'Arrest-False'}),0.08,0.9,1.03
-frozenset({'Description-OVER $500'}),"frozenset({'Primary Type-THEFT', 'Arrest-False', 'Domestic-False'})",0.05,0.9,5.31
-frozenset({'Description-OVER $500'}),"frozenset({'Arrest-False', 'Domestic-False'})",0.05,0.9,1.32
-"frozenset({'Primary Type-THEFT', 'Description-OVER $500'})","frozenset({'Arrest-False', 'Domestic-False'})",0.05,0.9,1.32
-frozenset({'Description-$500 AND UNDER'}),"frozenset({'Primary Type-THEFT', 'Arrest-False', 'Domestic-False'})",0.07,0.9,5.3
-frozenset({'Description-$500 AND UNDER'}),"frozenset({'Arrest-False', 'Domestic-False'})",0.07,0.9,1.32
-"frozenset({'Primary Type-THEFT', 'Description-$500 AND UNDER'})","frozenset({'Arrest-False', 'Domestic-False'})",0.07,0.9,1.32
+"frozenset({'Month-9', 'Domestic-False'})",frozenset({'Arrest-False'}),0.08,0.9,1.03
+frozenset({'Description-OVER $500'}),"frozenset({'Domestic-False', 'Primary Type-THEFT', 'Arrest-False'})",0.05,0.9,5.31
+frozenset({'Description-OVER $500'}),"frozenset({'Domestic-False', 'Arrest-False'})",0.05,0.9,1.32
+"frozenset({'Description-OVER $500', 'Primary Type-THEFT'})","frozenset({'Domestic-False', 'Arrest-False'})",0.05,0.9,1.32
+frozenset({'Description-$500 AND UNDER'}),"frozenset({'Domestic-False', 'Primary Type-THEFT', 'Arrest-False'})",0.07,0.9,5.3
+frozenset({'Description-$500 AND UNDER'}),"frozenset({'Domestic-False', 'Arrest-False'})",0.07,0.9,1.32
+"frozenset({'Primary Type-THEFT', 'Description-$500 AND UNDER'})","frozenset({'Domestic-False', 'Arrest-False'})",0.07,0.9,1.32
